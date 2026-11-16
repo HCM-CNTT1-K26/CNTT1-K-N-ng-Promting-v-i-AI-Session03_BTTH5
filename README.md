@@ -4,46 +4,46 @@
 
 **Prompt 1: Zero-shot**
 
-> Cửa hàng đồ công nghệ của tôi nhận được nhiều bình luận trên Facebook và cần phân loại để ưu tiên xử lý. Hãy giúp tôi phân loại 5 phản hồi dưới đây theo quy tắc sau:
-> * Tích cực: Khách khen ngợi, hài lòng.
-> * Tiêu cực: Khách chê, phàn nàn, không hài lòng.
-> * Yêu cầu hỗ trợ: Khách cần giải quyết một vấn đề cụ thể.
-> 
-> 
-> Danh sách phản hồi:
-> 1. "Sản phẩm đẹp, giao hàng nhanh, rất hài lòng."
-> 2. "Tôi đã đặt hàng 5 ngày nhưng chưa nhận được."
-> 3. "Tai nghe không kết nối được Bluetooth."
-> 4. "Nhân viên tư vấn rất nhiệt tình."
-> 5. "Tôi muốn hoàn tiền vì sản phẩm bị lỗi."
-> 
-> 
-> Trình bày kết quả thành bảng gồm 4 cột: STT, Phản hồi, Nhãn phân loại, Lý do.
+ Cửa hàng đồ công nghệ của tôi nhận được nhiều bình luận trên Facebook và cần phân loại để ưu tiên xử lý. Hãy giúp tôi phân loại 5 phản hồi dưới đây theo quy tắc sau:
+ * Tích cực: Khách khen ngợi, hài lòng.
+ * Tiêu cực: Khách chê, phàn nàn, không hài lòng.
+ * Yêu cầu hỗ trợ: Khách cần giải quyết một vấn đề cụ thể.
+ 
+ 
+ Danh sách phản hồi:
+ 1. "Sản phẩm đẹp, giao hàng nhanh, rất hài lòng."
+ 2. "Tôi đã đặt hàng 5 ngày nhưng chưa nhận được."
+ 3. "Tai nghe không kết nối được Bluetooth."
+ 4. "Nhân viên tư vấn rất nhiệt tình."
+ 5. "Tôi muốn hoàn tiền vì sản phẩm bị lỗi."
+ 
+ 
+ Trình bày kết quả thành bảng gồm 4 cột: STT, Phản hồi, Nhãn phân loại, Lý do.
 
 **Prompt 2: Few-shot (3 ví dụ mẫu)**
 
-> Cửa hàng đồ công nghệ của tôi cần phân loại bình luận khách hàng trên Facebook. Hãy dựa vào các ví dụ mẫu và quy tắc dưới đây để phân loại 5 phản hồi bên dưới.
-> Quy tắc:
-> * Tích cực: Khách khen ngợi, hài lòng.
-> * Tiêu cực: Khách chê, phàn nàn, không hài lòng.
-> * Yêu cầu hỗ trợ: Khách cần giải quyết một vấn đề cụ thể.
-> 
-> 
-> Ví dụ mẫu:
-> * "Loa nghe rất êm, shop đóng gói kỹ." -> Nhãn: Tích cực | Lý do: Khách khen chất lượng sản phẩm và cách đóng gói.
-> * "Dây sạc mới dùng 2 ngày đã đứt, làm ăn chán quá." -> Nhãn: Tiêu cực | Lý do: Khách phàn nàn về độ bền sản phẩm.
-> * "Shop hướng dẫn mình cách kết nối lại chuột không dây với." -> Nhãn: Yêu cầu hỗ trợ | Lý do: Khách cần hỗ trợ kỹ thuật cụ thể.
-> 
-> 
-> Danh sách cần phân loại:
-> 1. "Sản phẩm đẹp, giao hàng nhanh, rất hài lòng."
-> 2. "Tôi đã đặt hàng 5 ngày nhưng chưa nhận được."
-> 3. "Tai nghe không kết nối được Bluetooth."
-> 4. "Nhân viên tư vấn rất nhiệt tình."
-> 5. "Tôi muốn hoàn tiền vì sản phẩm bị lỗi."
-> 
-> 
-> Xuất kết quả ra bảng gồm các cột: STT, Phản hồi, Nhãn phân loại, Lý do.
+ Cửa hàng đồ công nghệ của tôi cần phân loại bình luận khách hàng trên Facebook. Hãy dựa vào các ví dụ mẫu và quy tắc dưới đây để phân loại 5 phản hồi bên dưới.
+ Quy tắc:
+ * Tích cực: Khách khen ngợi, hài lòng.
+ * Tiêu cực: Khách chê, phàn nàn, không hài lòng.
+ * Yêu cầu hỗ trợ: Khách cần giải quyết một vấn đề cụ thể.
+ 
+ 
+ Ví dụ mẫu:
+ * "Loa nghe rất êm, shop đóng gói kỹ." -> Nhãn: Tích cực | Lý do: Khách khen chất lượng sản phẩm và cách đóng gói.
+ * "Dây sạc mới dùng 2 ngày đã đứt, làm ăn chán quá." -> Nhãn: Tiêu cực | Lý do: Khách phàn nàn về độ bền sản phẩm.
+ * "Shop hướng dẫn mình cách kết nối lại chuột không dây với." -> Nhãn: Yêu cầu hỗ trợ | Lý do: Khách cần hỗ trợ kỹ thuật cụ thể.
+ 
+ 
+ Danh sách cần phân loại:
+ 1. "Sản phẩm đẹp, giao hàng nhanh, rất hài lòng."
+ 2. "Tôi đã đặt hàng 5 ngày nhưng chưa nhận được."
+ 3. "Tai nghe không kết nối được Bluetooth."
+ 4. "Nhân viên tư vấn rất nhiệt tình."
+ 5. "Tôi muốn hoàn tiền vì sản phẩm bị lỗi."
+ 
+ 
+ Xuất kết quả ra bảng gồm các cột: STT, Phản hồi, Nhãn phân loại, Lý do.
 
 ---
 
